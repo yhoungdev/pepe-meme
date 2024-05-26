@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "./micro/button";
-
+import Header from "../components/header";
 const Hero = () => {
   const bgStyle = {
     backgroundImage: "url(updateImage.jpg)",
@@ -19,11 +19,12 @@ const Hero = () => {
   };
 
   return (
-    <div>
+    <div className="hero-bg">
+      <Header />
       <div className="container flex flex-col-reverse md:flex-row
         gap-[3em] md:h-[80vh] items-center  justify-center w-full mx-auto text-center">
         <div
-          className=" hidden md:block rounded-xl h-[40vh] w-[70%]  mt-[2em]"
+          className=" hidden md:block rounded-xl h-[50vh] w-[70%]  mt-[2em]"
           style={bgStyle}
         ></div>
         <div className="mt-[5em] md:mt-[10em] w- md:w-[80%] px-4">

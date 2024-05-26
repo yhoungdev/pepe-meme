@@ -10,6 +10,9 @@ export default {
       colors: {
         primary: "#c28a30",
         font: "#fcde90",
+        backgrounds: {
+          skyBlue: '#bde4ff'
+        }
       },
       container: {
         center: true,
