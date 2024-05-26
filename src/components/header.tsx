@@ -54,13 +54,13 @@ const Header = () => {
           </div>
           <div className="hidden md:flex justify-center w-full md:w-auto items-center">
             <a
-              href="https://discord.com/invite/HMuZdJE6Er"
+              href=""
               className="text-white px-2"
             >
               <FaDiscord size={24} />
             </a>
             <a
-              href="https://twitter.com/TRUMP PEPECoinSTX"
+              href=""
               className="text-white px-2"
             >
               <FaTwitter size={24} />
@@ -91,13 +91,13 @@ const Header = () => {
           </a>
           <div className="flex items-start justify-center">
             <a
-              href="https://discord.com/invite/HMuZdJE6Er"
+              href=""
               className="text-white px-2"
             >
               <FaDiscord size={24} />
             </a>
             <a
-              href="https://twitter.com/TRUMP PEPECoinSTX"
+              href=""
               className="text-white px-2"
             >
               <FaTwitter size={24} />

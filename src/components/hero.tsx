@@ -7,7 +7,7 @@ const Hero = () => {
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
-    border: "5px solid white",
+    border: "5px solid #8cae4b",
     borderRadius: "15px",
   };
 
@@ -35,7 +35,7 @@ const Hero = () => {
           <h1
             className="text-3xl md:text-5xl font-bold uppercase
                title_element
-               default-text text-center md:text-left"
+               text-[] text-center md:text-left stroke-text text-transparent"
             style={{
               lineHeight: 1.3,
             }}

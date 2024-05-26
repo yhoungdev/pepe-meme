@@ -28,7 +28,6 @@ body {
 
 .custom-button {
   background: #8cae4b;
-  /* background: linear-gradient(180deg, #e6e6e6 0%, var(--bg-green) 100%); */
   box-shadow:
     0 4px 6px rgba(0, 0, 0, 0.1),
     0 1px 3px rgba(0, 0, 0, 0.08);
