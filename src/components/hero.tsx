@@ -1,13 +1,14 @@
 import { useClipboard } from "../hooks/useClipBoard";
-import { MdCopyAll } from "react-icons/md";
 import Button from "./micro/button";
 
 const Hero = () => {
   const bgStyle = {
     backgroundImage: "url(updateImage.jpg)",
-    backgroundSize: "contain",
+    backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
+    border: "5px solid white",
+    borderRadius: '15px'
   };
 
   const mobileBg = {
@@ -17,8 +18,8 @@ const Hero = () => {
     backgroundRepeat: "no-repeat",
   };
 
-  const contractAddress = "0xdsf6cv1dsf89fsdfv456ds5f4d";
-  const { copyToClipboard } = useClipboard();
+  // const contractAddress = "0xdsf6cv1dsf89fsdfv456ds5f4d";
+  // const { copyToClipboard } = useClipboard();
   return (
     <div>
       <div className="container flex flex-col-reverse  md:flex-row h-[45vh] md:h-[100vh] items-center justify-center w-full mx-auto text-center">
@@ -45,7 +46,9 @@ const Hero = () => {
             phenomenon.
           </p>
 
-          <Button className="mb-5">Get Started</Button>
+          <div className=" flex justify-left">
+            <Button className="mb-5">Get Started</Button>
+          </div>
 
           {/* <div className="mt-5 flex items-center gap-2 w-fit mx-auto h-fit">
             <div className="px-4 py-2 bg-none border-2 border-brand-accent rounded-md flex items-center">
