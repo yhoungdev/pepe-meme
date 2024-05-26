@@ -1,6 +1,6 @@
 import React from "react";
 import ContactUs from "./micro/contactUs";
-import { FaDiscord , FaTwitter } from "react-icons/fa";
+import { FaDiscord, FaTwitter } from "react-icons/fa";
 const Information = () => {
   return (
     <div className="bg-brown-800  px-3 text-white text-center py-12 min-h-screen flex flex-col justify-center w-full md:w-[800px] mx-auto">
@@ -20,7 +20,7 @@ const Information = () => {
         //   backgroundImage: "url(/bg/cat.jpeg)",
         // }}
       >
-       <ContactUs/>
+        <ContactUs />
       </div>
 
       <div className="flex justify-center w-full md:w-auto">
@@ -31,7 +31,11 @@ const Information = () => {
         >
           <FaDiscord size={24} />
         </a>
-        <a href="https://twitter.com/TRUMP PEPECoinSTX" className="text-white px-2"  target="_blank">
+        <a
+          href="https://twitter.com/TRUMP PEPECoinSTX"
+          className="text-white px-2"
+          target="_blank"
+        >
           <FaTwitter size={24} />
         </a>
 

@@ -26,16 +26,12 @@ const Footer = () => {
         </Link>
 
         <a
-              href="https://docs.memeTRUMP PEPE.io/"
-              className="text-white px-4 py-2 hover:underline title_element default-text text-xl"
-            >
-              Documentation
-            </a>
-
-
-        
+          href="https://docs.memeTRUMP PEPE.io/"
+          className="text-white px-4 py-2 hover:underline title_element default-text text-xl"
+        >
+          Documentation
+        </a>
       </div>
-     
     </footer>
   );
 };

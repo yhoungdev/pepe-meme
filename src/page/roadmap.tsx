@@ -19,11 +19,11 @@ const Roadmap = () => {
             Bitcoin's Stacks, designed to offer secure, inclusive, and
             easy-to-launch solutions for meme communities.
           </p> */}
-          
+
           <div className="my-[4em]">
-          <a href="" target="_blank">
-            <Button className="">Get Started</Button>
-          </a>
+            <a href="" target="_blank">
+              <Button className="">Get Started</Button>
+            </a>
           </div>
         </div>
       </section>

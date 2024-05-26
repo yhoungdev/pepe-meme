@@ -10,10 +10,10 @@ import Header from "../components/header";
 const Homepage = () => {
   return (
     <div>
-      <Header/>
+      <Header />
       <Hero />
       <ActivitySection />
-      <Feature />
+      {/* <Feature /> */}
       {/* <Information /> */}
       <Footer />
     </div>

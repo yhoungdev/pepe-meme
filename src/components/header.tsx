@@ -51,9 +51,6 @@ const Header = () => {
             >
               Token Utility
             </Link>
-
-
-            
           </div>
           <div className="hidden md:flex justify-center w-full md:w-auto items-center">
             <a
@@ -68,8 +65,6 @@ const Header = () => {
             >
               <FaTwitter size={24} />
             </a>
-
-           
           </div>
           <div
             onClick={toggleSidebar}
@@ -88,7 +83,10 @@ const Header = () => {
           <Link to="/utility" className="block py-2 text-white">
             Token Utility
           </Link>
-          <a href="https://docs.memeTRUMP PEPE.io/" className="block py-2 text-white">
+          <a
+            href="https://docs.memeTRUMP PEPE.io/"
+            className="block py-2 text-white"
+          >
             Documentation
           </a>
           <div className="flex items-start justify-center">
@@ -103,7 +101,7 @@ const Header = () => {
               className="text-white px-2"
             >
               <FaTwitter size={24} />
-            </a>            
+            </a>
           </div>
         </div>
       </div>
