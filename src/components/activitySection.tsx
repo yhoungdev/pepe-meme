@@ -3,16 +3,16 @@ import Button from "./micro/button";
 
 const ActivitySection = () => {
   return (
-    <section className=" text-white  md:py-5 px-4 md:px-8">
+    <section className=" text-white  md:py-5 px-4 md:px-8 mt-[4em]">
       <center>
         <h2 className="text-3xl md:text-5xl text-center bg-red-300 font-bold uppercase title_element default-text">
           ABOUT $TRUMP PEPE
         </h2>
       </center>
-      <div className="h-[90vh] items-center flex ">
+      <div className="my-[2em] items-center flex ">
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-          <div className="space-y-6" data-aos="fade-up">
-            <p>
+          <div className="space-y-6 text-center md:text-left" data-aos="fade-up">
+            <p className="">
               Stormy Daniels, a well-known adult film star, found herself at the
               heart of a political scandal involving former U.S. President
               Donald Trump. The hush-money payment of $130,000, made just before
@@ -21,7 +21,7 @@ const ActivitySection = () => {
               legal battles, the saga remains etched in public memory, providing
               the perfect backdrop for a meme coin with a unique story.
             </p>
-            <ul className="space-y-4">
+            {/* <ul className="space-y-4">
               <li className="flex items-center">
                 <span className="flex-shrink-0 w-8 h-8 bg-yellow-400 rounded-full mr-4"></span>
                 Get Level 10 in Discord
@@ -30,7 +30,7 @@ const ActivitySection = () => {
                 <span className="flex-shrink-0 w-8 h-8 bg-green-400 rounded-full mr-4"></span>
                 Invite Friends
               </li>
-            </ul>
+            </ul> */}
             <a href="">
               <Button className="mt-4">Get Started</Button>
             </a>
@@ -61,7 +61,7 @@ const ActivitySection = () => {
               backgroundPosition: "center",
             }}
           ></div>
-          <div className="space-y-6" data-aos="fade-up">
+          <div className="space-y-6 text-center md:text-left" data-aos="fade-up">
             <p>
               Stormy isn’t just another cryptocurrency; it’s a ticket to a
               digital revolution where scandal meets blockchain. Our mission is
@@ -89,16 +89,7 @@ const ActivitySection = () => {
                 inspired it.
               </p>
             </div>
-            <ul className="space-y-4">
-              <li className="flex items-center">
-                <span className="flex-shrink-0 w-8 h-8 bg-yellow-400 rounded-full mr-4"></span>
-                Get Level 10 in Discord
-              </li>
-              <li className="flex items-center">
-                <span className="flex-shrink-0 w-8 h-8 bg-green-400 rounded-full mr-4"></span>
-                Invite Friends
-              </li>
-            </ul>
+           
             <a href="">
               <Button className="mt-4">Get Started</Button>
             </a>
