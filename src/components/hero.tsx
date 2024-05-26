@@ -6,14 +6,14 @@ import Button from "./micro/button";
 
 const Hero = () => {
   const bgStyle = {
-    backgroundImage: "url(no-bg.png)",
+    backgroundImage: "url(updateImage.jpg)",
     backgroundSize: "contain",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
   };
 
   const mobileBg = {
-    backgroundImage: "url(no-bg.png)",
+    backgroundImage: "url(updateImage.jpg)",
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
@@ -35,7 +35,7 @@ const Hero = () => {
               lineHeight: 1.3,
             }}
           >
-            MEME FINANCE LAYER OF BITCOIN
+            MWelcome to the world of Stormy
           </h1>
 
           <p className="my-3 text-white  text-center md:text-left">
