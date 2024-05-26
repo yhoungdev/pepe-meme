@@ -21,15 +21,21 @@ const Hero = () => {
   return (
     <div className="hero-bg">
       <Header />
-      <div className="container flex flex-col-reverse md:flex-row
-        gap-[3em] md:h-[80vh] items-center  justify-center w-full mx-auto text-center">
-        <div
-          className=" hidden md:block rounded-xl h-[50vh] w-[70%]  mt-[2em]"
-          style={bgStyle}
-        ></div>
-        <div className="mt-[5em] md:mt-[10em] w- md:w-[80%] px-4">
+      <div
+        className="container flex flex-col-reverse md:flex-row
+        gap-[3em] md:h-[80vh] items-center  justify-center w-full mx-auto text-center"
+      >
+        <div className="w-full md:w-[500px]">
+          <div
+            className=" hidden md:block rounded-xl h-[45vh]  mt-[2em]"
+            style={bgStyle}
+          ></div>
+        </div>
+        <div className="mt-[5em] md:mt-[10em] w- md:w-[600px] px-4">
           <h1
-            className="text-3xl md:text-5xl font-bold uppercase title_element default-text text-center md:text-left"
+            className="text-3xl md:text-5xl font-bold uppercase
+               title_element
+               default-text text-center md:text-left"
             style={{
               lineHeight: 1.3,
             }}

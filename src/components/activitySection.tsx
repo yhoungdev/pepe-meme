@@ -11,7 +11,10 @@ const ActivitySection = () => {
       </center>
       <div className="my-[2em] items-center flex ">
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-          <div className="space-y-6 text-center md:text-left" data-aos="fade-up">
+          <div
+            className="space-y-6 text-center md:text-left"
+            data-aos="fade-up"
+          >
             <p className="">
               Stormy Daniels, a well-known adult film star, found herself at the
               heart of a political scandal involving former U.S. President
@@ -61,7 +64,10 @@ const ActivitySection = () => {
               backgroundPosition: "center",
             }}
           ></div>
-          <div className="space-y-6 text-center md:text-left" data-aos="fade-up">
+          <div
+            className="space-y-6 text-center md:text-left"
+            data-aos="fade-up"
+          >
             <p>
               Stormy isn’t just another cryptocurrency; it’s a ticket to a
               digital revolution where scandal meets blockchain. Our mission is
@@ -89,7 +95,7 @@ const ActivitySection = () => {
                 inspired it.
               </p>
             </div>
-           
+
             <a href="">
               <Button className="mt-4">Get Started</Button>
             </a>

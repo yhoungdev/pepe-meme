@@ -21,8 +21,9 @@ const Timeline = () => {
           </div>
           <div className="timeline-start md:text-end mb-10">
             <time className="font-mono italic">Jan - March 2024</time>
-            <div className="text-lg font-black">Launch and Initial Distribution</div>
-           
+            <div className="text-lg font-black">
+              Launch and Initial Distribution
+            </div>
           </div>
           <hr />
         </li>
@@ -66,8 +67,9 @@ const Timeline = () => {
           </div>
           <div className="timeline-start md:text-end mb-10">
             <time className="font-mono italic">July - September 2024</time>
-            <div className="text-lg font-black">Community Events and Contests</div>
- 
+            <div className="text-lg font-black">
+              Community Events and Contests
+            </div>
           </div>
           <hr />
         </li>
@@ -89,8 +91,9 @@ const Timeline = () => {
           </div>
           <div className="timeline-end mb-10">
             <time className="font-mono italic">October - December 2024</time>
-            <div className="text-lg font-black">Expanded Partnerships and Marketing</div>
-         
+            <div className="text-lg font-black">
+              Expanded Partnerships and Marketing
+            </div>
           </div>
           <hr />
         </li>
