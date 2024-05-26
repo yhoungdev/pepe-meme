@@ -20,12 +20,13 @@ const Hero = () => {
 
   return (
     <div>
-      <div className="container flex flex-col-reverse md:flex-row md:h-[80vh] items-center justify-center w-full mx-auto text-center">
+      <div className="container flex flex-col-reverse md:flex-row
+        gap-[3em] md:h-[80vh] items-center  justify-center w-full mx-auto text-center">
         <div
-          className="w-full hidden md:block rounded-xl h-[40vh] md:h-[60vh] mt-[2em]"
+          className=" hidden md:block rounded-xl h-[40vh] w-[70%]  mt-[2em]"
           style={bgStyle}
         ></div>
-        <div className="mt-[5em] md:mt-[10em] w-full px-4">
+        <div className="mt-[5em] md:mt-[10em] w- md:w-[80%] px-4">
           <h1
             className="text-3xl md:text-5xl font-bold uppercase title_element default-text text-center md:text-left"
             style={{
