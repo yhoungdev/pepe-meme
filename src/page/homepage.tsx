@@ -14,7 +14,7 @@ const Homepage = () => {
       <Header />
       <Hero />
       <ActivitySection />
-      <Tokenomics/>
+      <Tokenomics />
       {/* <Feature /> */}
       {/* <Information /> */}
       <Footer />

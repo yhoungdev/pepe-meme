@@ -24,8 +24,6 @@ const Footer = () => {
         >
           Token Utility
         </Link>
-
-  
       </div>
     </footer>
   );

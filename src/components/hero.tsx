@@ -8,7 +8,7 @@ const Hero = () => {
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
     border: "5px solid white",
-    borderRadius: '15px'
+    borderRadius: "15px",
   };
 
   const mobileBg = {
@@ -34,7 +34,7 @@ const Hero = () => {
               lineHeight: 1.3,
             }}
           >
-            MWelcome to the world of Stormy
+            Welcome to the world of Stormy
           </h1>
 
           <p className="my-3 text-white  text-center md:text-left">

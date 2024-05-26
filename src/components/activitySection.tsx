@@ -51,7 +51,7 @@ const ActivitySection = () => {
       {/* other section */}
       <div className="items-center flex flex-row-reverse">
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-        <div
+          <div
             className="md:flex md:justify-end  bg-black h-[400px] rounded-lg"
             data-aos="fade-up"
             style={{
@@ -103,7 +103,6 @@ const ActivitySection = () => {
               <Button className="mt-4">Get Started</Button>
             </a>
           </div>
-         
         </div>
       </div>
     </section>
