@@ -2,6 +2,7 @@
 
 import { useClipboard } from "../hooks/useClipBoard";
 import { MdCopyAll } from "react-icons/md";
+import Button from "./micro/button";
 
 const Hero = () => {
   const bgStyle = {
@@ -29,7 +30,7 @@ const Hero = () => {
         ></div>
         <div className="mt-[5em] md:mt-[10em] w-full px-4">
         <h1
-            className="hero-text  title_element text-[40px] text-center md:text-[70px] font-bold mb-4  "
+            className="text-4xl md:text-5xl font-bold uppercase title_element default-text text-center md:text-left  "
             style={{
               lineHeight: 1.3,
             }}
@@ -37,7 +38,15 @@ const Hero = () => {
             MEME FINANCE LAYER OF BITCOIN
           </h1>
 
-          <div className="mt-5 flex items-center gap-2 w-fit mx-auto h-fit">
+          <p className="my-3 text-white  text-center md:text-left">
+          Welcome to the world of Stormy, the meme coin that combines humor, history, and a dash of scandal to create an exciting and engaging cryptocurrency experience. Born from one of the most sensational and talked-about scandals in recent history, Stormy offers more than just a financial opportunity—it’s a chance to be part of a cultural phenomenon.
+          </p>
+
+          <Button className="mb-5">
+            Get Started
+          </Button>
+
+          {/* <div className="mt-5 flex items-center gap-2 w-fit mx-auto h-fit">
             <div className="px-4 py-2 bg-none border-2 border-brand-accent rounded-md flex items-center">
               <span className="text-md md:text-xl">{contractAddress}</span>
             </div>
@@ -47,7 +56,7 @@ const Hero = () => {
             >
               <MdCopyAll className="text-white" />
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       <div
