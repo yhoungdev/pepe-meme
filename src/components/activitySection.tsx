@@ -9,7 +9,7 @@ const ActivitySection = () => {
           ABOUT $TRUMP PEPE
         </h2>
       </center>
-      <div className="my-[2em] items-center flex ">
+      <div className="my-[5em] items-center flex ">
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div
             className="space-y-6 text-center md:text-left"
@@ -24,16 +24,6 @@ const ActivitySection = () => {
               legal battles, the saga remains etched in public memory, providing
               the perfect backdrop for a meme coin with a unique story.
             </p>
-            {/* <ul className="space-y-4">
-              <li className="flex items-center">
-                <span className="flex-shrink-0 w-8 h-8 bg-yellow-400 rounded-full mr-4"></span>
-                Get Level 10 in Discord
-              </li>
-              <li className="flex items-center">
-                <span className="flex-shrink-0 w-8 h-8 bg-green-400 rounded-full mr-4"></span>
-                Invite Friends
-              </li>
-            </ul> */}
             <a href="">
               <Button className="mt-4">Get Started</Button>
             </a>
@@ -46,6 +36,8 @@ const ActivitySection = () => {
               backgroundRepeat: "no-repeat",
               backgroundSize: "cover",
               backgroundPosition: "center",
+              border: "4.2px solid var(--accent-bg)",
+              borderRadius: "10px"
             }}
           ></div>
         </div>
@@ -62,6 +54,8 @@ const ActivitySection = () => {
               backgroundRepeat: "no-repeat",
               backgroundSize: "cover",
               backgroundPosition: "center",
+              border: "4.2px solid var(--accent-bg)",
+              borderRadius: "10px"
             }}
           ></div>
           <div
