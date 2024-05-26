@@ -1,37 +1,102 @@
-import React from 'react'
+import React from "react";
 
 const Timeline = () => {
   return (
-    
-<ol className="relative border-s border-gray-200 dark:border-gray-700">                  
-    <li className="mb-10 ms-4">
-        <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-        <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Jan-March 2024</time>
-        <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Launch and Initial Distribution</h3>
-        <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Launch and Initial Distribution</p>
-        
-    </li>
-    <li className="mb-10 ms-4">
-        <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-        <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">March - May 2024</time>
-        <h3 className="text-lg font-semibold text-gray-900 dark:text-white">NFT Marketplace Launch</h3>
-       
-    </li>
-    <li className="ms-4">
-        <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-        <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">June - August 2024</time>
-        <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Community Events and Contests</h3>
-    </li>
+    <div className="my-10">
+      <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
+        <li>
+          <div className="timeline-middle">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+              className="h-5 w-5"
+            >
+              <path
+                fillRule="evenodd"
+                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                clipRule="evenodd"
+              />
+            </svg>
+          </div>
+          <div className="timeline-start md:text-end mb-10">
+            <time className="font-mono italic">Jan - March 2024</time>
+            <div className="text-lg font-black">Launch and Initial Distribution</div>
+           
+          </div>
+          <hr />
+        </li>
+        <li>
+          <hr />
+          <div className="timeline-middle">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+              className="h-5 w-5"
+            >
+              <path
+                fillRule="evenodd"
+                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                clipRule="evenodd"
+              />
+            </svg>
+          </div>
+          <div className="timeline-end mb-10">
+            <time className="font-mono italic">April - June 2024</time>
+            <div className="text-lg font-black">NFT Marketplace Launch</div>
+          </div>
+          <hr />
+        </li>
+        <li>
+          <hr />
+          <div className="timeline-middle">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+              className="h-5 w-5"
+            >
+              <path
+                fillRule="evenodd"
+                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                clipRule="evenodd"
+              />
+            </svg>
+          </div>
+          <div className="timeline-start md:text-end mb-10">
+            <time className="font-mono italic">July - September 2024</time>
+            <div className="text-lg font-black">Community Events and Contests</div>
+ 
+          </div>
+          <hr />
+        </li>
+        <li>
+          <hr />
+          <div className="timeline-middle">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+              className="h-5 w-5"
+            >
+              <path
+                fillRule="evenodd"
+                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                clipRule="evenodd"
+              />
+            </svg>
+          </div>
+          <div className="timeline-end mb-10">
+            <time className="font-mono italic">October - December 2024</time>
+            <div className="text-lg font-black">Expanded Partnerships and Marketing</div>
+         
+          </div>
+          <hr />
+        </li>
+      </ul>
+    </div>
+  );
+};
 
-    <li className="ms-4">
-        <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-        <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Sept - Nov 2024</time>
-        <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Expanded Partnerships and Marketing</h3>
-    </li>
-</ol>
-
-
-  )
-}
-
-export default Timeline
+export default Timeline;

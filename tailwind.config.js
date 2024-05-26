@@ -1,4 +1,5 @@
-/** @type {import('tailwindcss').Config} */
+import daisyui from 'daisyui';
+
 export default {
   content: [
     "./index.html",
@@ -8,8 +9,8 @@ export default {
     extend: {
       colors: {
         primary: "#c28a30",
-        font: "#fcde90"
-      }, 
+        font: "#fcde90",
+      },
       container: {
         center: true,
         padding: "1rem",
@@ -20,8 +21,8 @@ export default {
           xl: "1280px",
           "2xl": "1536px",
         },
-      }
+      },
     },
   },
-  plugins: [],
-}
+  plugins: [daisyui],
+};

@@ -1,4 +1,4 @@
-import { useClipboard } from "../hooks/useClipBoard";
+import React from "react";
 import Button from "./micro/button";
 
 const Hero = () => {

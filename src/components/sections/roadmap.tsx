@@ -12,7 +12,7 @@ const RoadmapSection = () => {
         </center>
 
         <div className="my-3">
-            <Timeline/>
+          <Timeline />
         </div>
       </div>
     </div>
