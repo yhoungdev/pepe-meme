@@ -17,7 +17,13 @@ const AllocationChart: React.FC = () => {
         chartInstance.current = new Chart(myChartRef, {
           type: "doughnut",
           data: {
-            labels: ["Initial Distribution", "Liquidity Pool", "Community Rewards", "Development Fund", "Marketting & Partnership"],
+            labels: [
+              "Initial Distribution",
+              "Liquidity Pool",
+              "Community Rewards",
+              "Development Fund",
+              "Marketting & Partnership",
+            ],
             datasets: [
               {
                 backgroundColor: [
