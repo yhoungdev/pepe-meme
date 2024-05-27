@@ -21,8 +21,8 @@ const ActivitySection = () => {
               legal battles, the saga remains etched in public memory, providing
               the perfect backdrop for a meme coin with a unique story.
             </p>
-            <a href="">
-              <Button className="mt-4">Get Started</Button>
+            <a href="https://t.me/StormyCoinBase" target="_blank">
+              <Button className="mt-4">Join Community</Button>
             </a>
           </div>
           <div
@@ -76,8 +76,8 @@ const ActivitySection = () => {
                 inspired it.
               </p>
             </div>
-            <a href="">
-              <Button className="mt-4">Get Started</Button>
+            <a href="https://t.me/StormyCoinBase" target="_blank">
+              <Button className="mt-4">Join Community</Button>
             </a>
           </div>
         </div>

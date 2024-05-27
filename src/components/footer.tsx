@@ -43,6 +43,11 @@ const Footer = () => {
         >
           <FaTelegram size={24} />
         </a>
+
+        {/* <a href="https://basescan.org/address/0xd7d451FD20D295d4447c28AbbB706085C1a73f4c#code" target="_blank" class="inverted-link">
+    <img src="/icons/base-logo.svg" height="100" width="100" alt="base image" className="inverted-img" />
+</a> */}
+
       </div>
     </footer>
   );
