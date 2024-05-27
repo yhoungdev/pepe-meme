@@ -3,7 +3,7 @@ import Timeline from "./timeline";
 
 const RoadmapSection = () => {
   return (
-    <div className="container">
+    <div id="roadmap" className="container">
       <div className="py-[5em] my-[5em]">
         <center>
         <h2

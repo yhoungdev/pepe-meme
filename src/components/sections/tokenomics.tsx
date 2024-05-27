@@ -3,7 +3,7 @@ import AllocationChart from "../micro/alocationChart";
 
 const Tokenomics = () => {
   return (
-    <div id="#tokenomics" className="py-[5em] my-[5em]">
+    <div id="tokenomics" className="py-[5em] my-[5em]">
       <div className=" mx-auto text-center">
       <h2
           className="text-3xl md:text-5xl font-bold uppercase title_element text-center stroke-text text-transparent"
@@ -26,6 +26,8 @@ const Tokenomics = () => {
           <AllocationChart />
         </div>
       </div>
+
+      
     </div>
   );
 };

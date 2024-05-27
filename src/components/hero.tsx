@@ -63,14 +63,9 @@ const Hero = () => {
                   {contractAddress}
                 </span>
               </div>
-              {/* <div
-                className="rounded-md p-3 bg-brand-accent cursor-pointer flex items-center justify-center bg-white"
-                onClick={() => copyToClipboard(contractAddress)}
-              >
-                <h5 className="text-black">Copy</h5>
-              </div> */}
             </div>
           </div>
+          
         </div>
       </div>
     </div>
