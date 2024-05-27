@@ -65,7 +65,7 @@ const Header = () => {
                 href={link.path}
                 onClick={() => handleNavLinkClick(link)}
                 className={`text-black font-bold px-4 py-2 hover:underline text-xl ${
-                  activeLink === link.name ? "text-green-500" : ""
+                  activeLink === link.name ? "text-white" : ""
                 }`}
               >
                 {link.name}

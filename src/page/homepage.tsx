@@ -7,6 +7,7 @@ import Footer from "../components/footer";
 import Tokenomics from "../components/sections/tokenomics";
 import RoadmapSection from "../components/sections/roadmap";
 import Presale from "../components/sections/presale";
+import Disclamer from "../components/sections/disclamer";
 
 const Homepage = () => {
   return (
@@ -16,6 +17,7 @@ const Homepage = () => {
       <Tokenomics />
       <RoadmapSection />
       <Presale/>
+      <Disclamer/>
       <Footer />
     </div>
   );
