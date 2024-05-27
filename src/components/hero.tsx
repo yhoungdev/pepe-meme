@@ -28,11 +28,12 @@ const Hero = () => {
     <div className="hero-bg">
       <Header />
       <div
-        className="container flex flex-col-reverse md:flex-row gap-[3em] md:h-[80vh] items-center justify-center w-full mx-auto text-center"
+        className="container flex flex-col-reverse md:flex-row 
+          gap-[3em] md:h-[80vh] items-center justify-center w-full mx-auto text-center"
       >
         <div className="w-full md:w-[500px]">
           <div
-            className="hidden md:block rounded-xl h-[45vh] mt-[2em]"
+            className=" md:block rounded-xl h-[45vh]  my-[2em] md:m-0"
             style={bgStyle}
           ></div>
         </div>
@@ -57,29 +58,21 @@ const Hero = () => {
 
           <div className="flex items-center">
             <div className="mt-5 flex items-center gap-2 w-fit h-fit">
-              <div className="px-4 py-2 bg-none border-2 border-brand-accent rounded-md flex items-center">
-                <span className="text-md md:text-xl text-black flex break-all">
+              <div className="px-4 py-2 bg-white border-2 border-brand-accent rounded-md flex items-center">
+                <span className="text-sm md:text-xl text-black flex break-all">
                   {contractAddress}
                 </span>
               </div>
-              <div
+              {/* <div
                 className="rounded-md p-3 bg-brand-accent cursor-pointer flex items-center justify-center bg-white"
                 onClick={() => copyToClipboard(contractAddress)}
               >
                 <h5 className="text-black">Copy</h5>
-              </div>
+              </div> */}
             </div>
           </div>
-
-          {/* <div className="flex justify-center md:justify-start">
-            <Button className="mb-5 md:mb-0">Get Started</Button>
-          </div> */}
         </div>
       </div>
-      <div
-        className="w-full md:hidden rounded-xl h-[50vh] md:h-[60vh]"
-        style={mobileBg}
-      ></div>
     </div>
   );
 };
