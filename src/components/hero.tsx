@@ -1,7 +1,10 @@
+
+
 import React from "react";
 import Header from "../components/header";
 import { useClipboard } from "../hooks/useClipBoard";
 import { MdCopyAll } from "react-icons/md";
+
 const Hero = () => {
   const bgStyle = {
     backgroundImage: "url(updateImage.jpg)",
@@ -25,20 +28,17 @@ const Hero = () => {
     <div className="hero-bg">
       <Header />
       <div
-        className="container flex flex-col-reverse md:flex-row
-        gap-[3em] md:h-[80vh] items-center  justify-center w-full mx-auto text-center"
+        className="container flex flex-col-reverse md:flex-row gap-[3em] md:h-[80vh] items-center justify-center w-full mx-auto text-center"
       >
         <div className="w-full md:w-[500px]">
           <div
-            className=" hidden md:block rounded-xl h-[45vh]  mt-[2em]"
+            className="hidden md:block rounded-xl h-[45vh] mt-[2em]"
             style={bgStyle}
           ></div>
         </div>
-        <div className="mt-[5em] md:mt-[10em] w- md:w-[600px] px-4">
+        <div className="mt-[5em] md:mt-[10em] w-full md:w-[600px] px-4">
           <h1
-            className="text-3xl md:text-5xl font-bold uppercase
-               title_element
-               text-center md:text-left stroke-text text-transparent"
+            className="text-3xl md:text-5xl font-bold uppercase title_element text-center md:text-left stroke-text text-transparent"
             style={{
               lineHeight: 1.3,
             }}
@@ -56,16 +56,14 @@ const Hero = () => {
           </p>
 
           <div className="flex items-center">
-            <div className="mt-5 flex items-center  gap-2 w-fit  h-fit">
+            <div className="mt-5 flex items-center gap-2 w-fit h-fit">
               <div className="px-4 py-2 bg-none border-2 border-brand-accent rounded-md flex items-center">
-                <span className="text-md md:text-xl text-black flex">
+                <span className="text-md md:text-xl text-black flex break-all">
                   {contractAddress}
                 </span>
               </div>
               <div
-                className="rounded-md 
-              p-3 bg-brand-accent cursor-pointer flex items-center
-               justify-center bg-white"
+                className="rounded-md p-3 bg-brand-accent cursor-pointer flex items-center justify-center bg-white"
                 onClick={() => copyToClipboard(contractAddress)}
               >
                 <h5 className="text-black">Copy</h5>
