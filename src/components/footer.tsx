@@ -1,6 +1,5 @@
 import React from "react";
-import { FaDiscord, FaTelegram, FaTwitter } from "react-icons/fa";
-import navLinks from "../utils";
+import { FaTelegram, FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
   return (
