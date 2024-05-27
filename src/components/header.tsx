@@ -35,7 +35,7 @@ const Header = () => {
         <nav className="container mx-auto flex justify-between items-center">
           <div className="flex items-center">
             <a href="/">
-              <img src="/logo.png" alt="Logo" width={"65"} />
+              <img src="/updateImage.jpg" alt="Logo" width={"65"} className="rounded-full" />
             </a>
           </div>
           <div className="hidden md:flex items-center">

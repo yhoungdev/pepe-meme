@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="text-white p-4 flex flex-col md:flex-row justify-between items-center container mx-auto">
       <div className="flex flex-col sm:flex-row items-center justify-between w-full md:w-auto mb-4 md:mb-0">
         <a href="/">
-          <img src="/logo.png" width={"65"} />
+        <img src="/updateImage.jpg" alt="Logo" width={"65"} className="rounded-full" />
         </a>
       </div>
       <div className="flex flex-wrap justify-center mb-4 md:mb-0 w-full md:w-auto">

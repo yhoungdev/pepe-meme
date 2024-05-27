@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "../components/micro/button";
 import Header from "../components/header";
-import RoadmapData from "../components/page/roadMapItem";
+import RoadmapSection from "../components/sections/roadmap";
 import Footer from "../components/footer";
 
 const Roadmap = () => {
@@ -14,11 +14,6 @@ const Roadmap = () => {
           <h2 className="text-3xl md:text-5xl font-bold uppercase title_element default-text">
             $StormyS{"  "} ROADMAP
           </h2>
-          {/* <p>
-            The $Stormy project is an innovative meme finance ecosystem on
-            Bitcoin's Stacks, designed to offer secure, inclusive, and
-            easy-to-launch solutions for meme communities.
-          </p> */}
 
           <div className="my-[4em]">
             <a href="" target="_blank">
@@ -29,7 +24,7 @@ const Roadmap = () => {
       </section>
 
       <div className="mb-[5em]">
-        <RoadmapData />
+        <RoadmapSection />
       </div>
       <Footer />
     </>
