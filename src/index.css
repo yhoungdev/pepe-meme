@@ -28,10 +28,11 @@ body {
 }
 
 .custom-button {
-  background: #8cae4b;
+  background: white;
   border: none;
   cursor: pointer;
   transition: transform 0.1s ease-in-out;
+  color: black;
 }
 
 .custom-button:hover {

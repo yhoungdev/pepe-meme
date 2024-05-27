@@ -13,7 +13,7 @@ const ActivitySection = () => {
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div
             className="space-y-6 text-center md:text-left"
-            Stormy
+        
           >
             <p className="">
               Stormy Daniels, a well-known adult film star, found herself at the
@@ -36,7 +36,7 @@ const ActivitySection = () => {
               backgroundRepeat: "no-repeat",
               backgroundSize: "cover",
               backgroundPosition: "center",
-              border: "4.2px solid var(--accent-bg)",
+              
               borderRadius: "10px"
             }}
           ></div>
@@ -54,13 +54,13 @@ const ActivitySection = () => {
               backgroundRepeat: "no-repeat",
               backgroundSize: "cover",
               backgroundPosition: "center",
-              border: "4.2px solid var(--accent-bg)",
+             
               borderRadius: "10px"
             }}
           ></div>
           <div
             className="space-y-6 text-center md:text-left"
-            Stormy
+            
           >
             <p>
               Stormy isn’t just another cryptocurrency; it’s a ticket to a
