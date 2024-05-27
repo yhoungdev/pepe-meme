@@ -84,7 +84,7 @@ const Header = () => {
             Token Utility
           </Link>
           <a
-            href="https://docs.memeTRUMP PEPE.io/"
+            href="https://docs.memeStormy.io/"
             className="block py-2 text-white"
           >
             Documentation

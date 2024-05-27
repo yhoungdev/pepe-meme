@@ -12,7 +12,7 @@ const Ownership = () => {
       </h2>
 
       <p className="mb-8  text-md md:text-xl" data-aos="fade-up">
-        TRUMP PEPE totally revamps the game bringing instant utility and value
+        Stormy totally revamps the game bringing instant utility and value
         to holders
       </p>
       <div data-aos="fade-up" className="flex flex-wrap justify-center gap-4">

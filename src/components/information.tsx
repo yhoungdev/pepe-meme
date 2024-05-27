@@ -32,7 +32,7 @@ const Information = () => {
           <FaDiscord size={24} />
         </a>
         <a
-          href="https://twitter.com/TRUMP PEPECoinSTX"
+          href="https://twitter.com/StormyCoinSTX"
           className="text-white px-2"
           target="_blank"
         >
@@ -40,7 +40,7 @@ const Information = () => {
         </a>
 
         <div className="w-[25px] h-[25px] ml-2 cursor-pointer">
-          <a href="https://zealy.io/c/TRUMP PEPEcoinstx" target="_blank">
+          <a href="https://zealy.io/c/Stormycoinstx" target="_blank">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"

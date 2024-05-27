@@ -20,18 +20,18 @@ export const ROADMAPDATA = [
 export const TOKENUTILITY = [
   {
     title: "Launch and Initial Distribution ",
-    content: ` we are creating a decentralised revenue sharing built in utility for $TRUMP PEPE holders, hold $TRUMP PEPE and earn a percentage of all fees generated`,
+    content: ` we are creating a decentralised revenue sharing built in utility for $Stormy holders, hold $Stormy and earn a percentage of all fees generated`,
   },
   {
     title: "NFT Marketplace Launch",
-    content: `we introduce a deflationary mechanism to increase value for $TRUMP PEPE holders by periodic buy back and burn 🔥 from generated fees`,
+    content: `we introduce a deflationary mechanism to increase value for $Stormy holders by periodic buy back and burn 🔥 from generated fees`,
   },
   {
     title: "Community Events and Contests ",
-    content: `$TRUMP PEPE holders vote 🗳  in the continuous development of the ecosystem and future of the finance layer of bitcoin`,
+    content: `$Stormy holders vote 🗳  in the continuous development of the ecosystem and future of the finance layer of bitcoin`,
   },
   {
     title: "Expanded Partnerships and Marketing",
-    content: `• stake $TRUMP PEPE earn $TRUMP PEPE rewards\n\n• stake $TRUMP PEPE earn other meme tokens`,
+    content: `• stake $Stormy earn $Stormy rewards\n\n• stake $Stormy earn other meme tokens`,
   },
 ];

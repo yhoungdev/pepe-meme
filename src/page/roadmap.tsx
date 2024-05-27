@@ -12,10 +12,10 @@ const Roadmap = () => {
       <section className="text-white flex justify-center items-center h-[60vh]">
         <div className="max-w-2xl px-4 md:px-8 text-center  space-y-6">
           <h2 className="text-3xl md:text-5xl font-bold uppercase title_element default-text">
-            $TRUMP PEPES{"  "} ROADMAP
+            $StormyS{"  "} ROADMAP
           </h2>
           {/* <p>
-            The $TRUMP PEPE project is an innovative meme finance ecosystem on
+            The $Stormy project is an innovative meme finance ecosystem on
             Bitcoin's Stacks, designed to offer secure, inclusive, and
             easy-to-launch solutions for meme communities.
           </p> */}
