@@ -3,7 +3,7 @@ import AllocationChart from "../micro/alocationChart";
 
 const Tokenomics = () => {
   return (
-    <div className="py-[5em] my-[5em]">
+    <div id="#tokenomics" className="py-[5em] my-[5em]">
       <div className=" mx-auto text-center">
         <h1 className="title_element default-text text-2xl md:text-4xl font-bold">
           TOKENOMICS

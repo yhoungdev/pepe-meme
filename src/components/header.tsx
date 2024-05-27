@@ -23,6 +23,13 @@ const Header = () => {
     zIndex: 1000,
   };
 
+  const navLinks = [
+    { name: "Home", path: "#" },
+    { name: "About", path: "#about" },
+    { name: "Tokenomics", path: "#tokenomics" },
+    { name: "Roadmap", path: "#roadmap" },
+  ];
+
   return (
     <>
       <header className="bg-cover bg-center p-4">
@@ -33,36 +40,21 @@ const Header = () => {
             </a>
           </div>
           <div className="hidden md:flex items-center">
-            <Link
-              to="/"
-              className="text-black font-bold px-4 py-2 hover:underline  text-xl"
-            >
-              Home
-            </Link>
-            <Link
-              to="/roadmap"
-              className="text-black font-bold  px-4 py-2 hover:underline  text-xl"
-            >
-              Road Map
-            </Link>
-            <Link
-              to="/utility"
-              className="text-black font-bold  px-4 py-2 hover:underline  text-xl"
-            >
-              Token Utility
-            </Link>
+            {navLinks.map((link, index) => (
+              <Link
+                key={index}
+                to={link.path}
+                className="text-black font-bold px-4 py-2 hover:underline text-xl"
+              >
+                {link.name}
+              </Link>
+            ))}
           </div>
           <div className="hidden md:flex justify-center w-full md:w-auto items-center">
-            <a
-              href=""
-              className="text-white px-2"
-            >
+            <a href="" className="text-white px-2">
               <FaDiscord size={24} />
             </a>
-            <a
-              href=""
-              className="text-white px-2"
-            >
+            <a href="" className="text-white px-2">
               <FaTwitter size={24} />
             </a>
           </div>
@@ -75,31 +67,21 @@ const Header = () => {
         </nav>
       </header>
 
-      <div style={sidebarStyle} className="text-center ">
+      <div style={sidebarStyle} className="text-center">
         <div className="flex items-center h-[80%] flex-col justify-center gap-[4em] text-1xl">
-          <Link to="/roadmap" className="block py-2 text-white">
-            Road Map
-          </Link>
-          <Link to="/utility" className="block py-2 text-white">
-            Token Utility
-          </Link>
-          <a
-            href="https://docs.memeStormy.io/"
-            className="block py-2 text-white"
-          >
+          {navLinks.map((link, index) => (
+            <Link key={index} to={link.path} className="block py-2 text-white">
+              {link.name}
+            </Link>
+          ))}
+          <a href="https://docs.memeStormy.io/" className="block py-2 text-white">
             Documentation
           </a>
           <div className="flex items-start justify-center">
-            <a
-              href=""
-              className="text-white px-2"
-            >
+            <a href="" className="text-white px-2">
               <FaDiscord size={24} />
             </a>
-            <a
-              href=""
-              className="text-white px-2"
-            >
+            <a href="" className="text-white px-2">
               <FaTwitter size={24} />
             </a>
           </div>

@@ -3,7 +3,7 @@ import Button from "./micro/button";
 
 const ActivitySection = () => {
   return (
-    <section className=" text-white  md:py-5 px-4 md:px-8 mt-[4em]">
+    <section id="about" className="  text-white  md:py-5 px-4 md:px-8 mt-[4em]">
       <center>
         <h2 className="text-3xl md:text-5xl text-center bg-red-300 font-bold uppercase title_element default-text">
           ABOUT $Stormy

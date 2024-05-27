@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  scroll-behavior: smooth !important;
+}
+
 .hero-bg {
   background-image: url(/bg/pepeBg.png);
   background-position: center;
