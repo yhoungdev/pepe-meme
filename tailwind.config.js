@@ -9,6 +9,7 @@ export default {
     extend: {
       colors: {
         primary: "#c28a30",
+        default: "#8cae4b",
         font: "#fcde90",
         backgrounds: {
           skyBlue: '#bde4ff'

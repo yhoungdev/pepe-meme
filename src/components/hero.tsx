@@ -1,6 +1,7 @@
 import React from "react";
-import Button from "./micro/button";
 import Header from "../components/header";
+import { useClipboard } from "../hooks/useClipBoard";
+import { MdCopyAll } from "react-icons/md";
 const Hero = () => {
   const bgStyle = {
     backgroundImage: "url(updateImage.jpg)",
@@ -17,6 +18,9 @@ const Hero = () => {
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
   };
+
+  const contractAddress = "0xdsf6cv1dsf89fsdfv456ds5f4d";
+  const { copyToClipboard } = useClipboard(); 
 
   return (
     <div className="hero-bg">
@@ -35,7 +39,7 @@ const Hero = () => {
           <h1
             className="text-3xl md:text-5xl font-bold uppercase
                title_element
-               text-[] text-center md:text-left stroke-text text-transparent"
+               text-center md:text-left stroke-text text-transparent"
             style={{
               lineHeight: 1.3,
             }}
@@ -52,9 +56,27 @@ const Hero = () => {
             phenomenon.
           </p>
 
-          <div className="flex justify-center md:justify-start">
-            <Button className="mb-5 md:mb-0">Get Started</Button>
+          <div className="flex items-center">
+
+          <div className="mt-5 flex items-center  gap-2 w-fit  h-fit">
+            <div className="px-4 py-2 bg-none border-2 border-brand-accent rounded-md flex items-center">
+              <span className="text-md md:text-xl text-white">{contractAddress}</span>
+            </div>
+            <div
+              className="rounded-md 
+              p-3 bg-brand-accent cursor-pointer flex items-center
+               justify-center bg-default"
+              onClick={() => copyToClipboard(contractAddress)}
+            >
+              <MdCopyAll className="text-white" />
+            </div>
           </div>
+
+          </div>
+
+          {/* <div className="flex justify-center md:justify-start">
+            <Button className="mb-5 md:mb-0">Get Started</Button>
+          </div> */}
         </div>
       </div>
       <div
