@@ -27,7 +27,7 @@ const Hero = () => {
       <Header />
       <div
         className="container flex flex-col-reverse md:flex-row 
-          gap-[3em] md:h-[80vh] items-center justify-center w-full mx-auto text-center"
+          gap-[3em] md:h-[86vh] items-center justify-center w-full mx-auto text-center"
       >
         <div className="w-full md:w-[500px]">
           <div
