@@ -30,7 +30,7 @@ const ActivitySection = () => {
           </div>
           <div
             className="md:flex md:justify-end  bg-black h-[400px] rounded-lg"
-            Stormy
+         
             style={{
               backgroundImage: "url(/bg.jpg)",
               backgroundRepeat: "no-repeat",
@@ -48,7 +48,7 @@ const ActivitySection = () => {
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div
             className="md:flex md:justify-end  bg-black h-[400px] rounded-lg"
-            Stormy
+          
             style={{
               backgroundImage: "url(/bg.jpg)",
               backgroundRepeat: "no-repeat",
