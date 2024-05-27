@@ -12,8 +12,8 @@ const Ownership = () => {
       </h2>
 
       <p className="mb-8  text-md md:text-xl" Stormy>
-        Stormy totally revamps the game bringing instant utility and value
-        to holders
+        Stormy totally revamps the game bringing instant utility and value to
+        holders
       </p>
       <div Stormy className="flex flex-wrap justify-center gap-4">
         {TOKENUTILITY.map(({ title, content }, index) => (

@@ -1,6 +1,6 @@
 //@ts-nocheck
 import React, { useState } from "react";
-import { FaBars, FaDiscord, FaTwitter } from "react-icons/fa";
+import { FaBars, FaDiscord, FaTelegram } from "react-icons/fa";
 
 const Header = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -35,7 +35,12 @@ const Header = () => {
         <nav className="container mx-auto flex justify-between items-center">
           <div className="flex items-center">
             <a href="/">
-              <img src="/updateImage.jpg" alt="Logo" width={"65"} className="rounded-full" />
+              <img
+                src="/updateImage.jpg"
+                alt="Logo"
+                width={"65"}
+                className="rounded-full"
+              />
             </a>
           </div>
           <div className="hidden md:flex items-center">
@@ -53,8 +58,12 @@ const Header = () => {
             <a href="" className="text-white px-2">
               <FaDiscord size={24} />
             </a>
-            <a href="" className="text-white px-2">
-              <FaTwitter size={24} />
+            <a
+              href="https://t.me/StormyCoinBase"
+              target="_blank"
+              className="text-white px-2"
+            >
+              <FaTelegram size={24} />
             </a>
           </div>
           <div
@@ -73,15 +82,21 @@ const Header = () => {
               {link.name}
             </a>
           ))}
-          <a href="https://docs.memeStormy.io/" className="block py-2 text-white">
-            Documentation
-          </a>
+
           <div className="flex items-start justify-center">
-            <a href="" className="text-white px-2">
+            <a
+              href="https://x.com/stormybase"
+              target="_bank"
+              className="text-white px-2"
+            >
               <FaDiscord size={24} />
             </a>
-            <a href="" className="text-white px-2">
-              <FaTwitter size={24} />
+            <a
+              href="https://t.me/StormyCoinBase"
+              target="_blank"
+              className="text-white px-2"
+            >
+              <FaTelegram size={24} />
             </a>
           </div>
         </div>

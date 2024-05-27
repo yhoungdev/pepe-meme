@@ -19,7 +19,7 @@ const Hero = () => {
   };
 
   const contractAddress = "0xdsf6cv1dsf89fsdfv456ds5f4d";
-  const { copyToClipboard } = useClipboard(); 
+  const { copyToClipboard } = useClipboard();
 
   return (
     <div className="hero-bg">
@@ -56,21 +56,21 @@ const Hero = () => {
           </p>
 
           <div className="flex items-center">
-
-          <div className="mt-5 flex items-center  gap-2 w-fit  h-fit">
-            <div className="px-4 py-2 bg-none border-2 border-brand-accent rounded-md flex items-center">
-              <span className="text-md md:text-xl text-black">{contractAddress}</span>
-            </div>
-            <div
-              className="rounded-md 
+            <div className="mt-5 flex items-center  gap-2 w-fit  h-fit">
+              <div className="px-4 py-2 bg-none border-2 border-brand-accent rounded-md flex items-center">
+                <span className="text-md md:text-xl text-black">
+                  {contractAddress}
+                </span>
+              </div>
+              <div
+                className="rounded-md 
               p-3 bg-brand-accent cursor-pointer flex items-center
                justify-center bg-white"
-              onClick={() => copyToClipboard(contractAddress)}
-            >
-              <h5 className="text-black">Copy</h5>
+                onClick={() => copyToClipboard(contractAddress)}
+              >
+                <h5 className="text-black">Copy</h5>
+              </div>
             </div>
-          </div>
-
           </div>
 
           {/* <div className="flex justify-center md:justify-start">

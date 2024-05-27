@@ -1,5 +1,5 @@
 import React from "react";
-import { FaDiscord, FaTwitter } from "react-icons/fa";
+import { FaDiscord, FaTelegram, FaTwitter } from "react-icons/fa";
 import navLinks from "../utils";
 
 const Footer = () => {
@@ -7,7 +7,12 @@ const Footer = () => {
     <footer className="text-white p-4 flex flex-col md:flex-row justify-between items-center container mx-auto">
       <div className="flex flex-col sm:flex-row items-center justify-between w-full md:w-auto mb-4 md:mb-0">
         <a href="/">
-        <img src="/updateImage.jpg" alt="Logo" width={"65"} className="rounded-full" />
+          <img
+            src="/updateImage.jpg"
+            alt="Logo"
+            width={"65"}
+            className="rounded-full"
+          />
         </a>
       </div>
       <div className="flex flex-wrap justify-center mb-4 md:mb-0 w-full md:w-auto">
@@ -25,8 +30,12 @@ const Footer = () => {
         <a href="" className="text-white px-2">
           <FaDiscord size={24} />
         </a>
-        <a href="" className="text-white px-2">
-          <FaTwitter size={24} />
+        <a
+          href="https://t.me/StormyCoinBase"
+          target="_blank"
+          className="text-white px-2"
+        >
+          <FaTelegram size={24} />
         </a>
       </div>
     </footer>
