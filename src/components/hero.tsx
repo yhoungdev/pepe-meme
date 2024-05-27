@@ -1,5 +1,3 @@
-
-
 import React from "react";
 import Header from "../components/header";
 import { useClipboard } from "../hooks/useClipBoard";
@@ -65,7 +63,6 @@ const Hero = () => {
               </div>
             </div>
           </div>
-          
         </div>
       </div>
     </div>

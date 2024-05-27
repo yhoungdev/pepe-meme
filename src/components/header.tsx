@@ -12,7 +12,7 @@ const Header = () => {
 
   const handleNavLinkClick = (link) => {
     setActiveLink(link.name);
-    setIsSidebarOpen(false); 
+    setIsSidebarOpen(false);
   };
 
   const sidebarStyle = {

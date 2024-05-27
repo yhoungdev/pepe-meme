@@ -10,11 +10,14 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={
-          <Suspense fallback={<Loader/>}>
-            <Home/>
-          </Suspense>
-        } />
+        <Route
+          path="/"
+          element={
+            <Suspense fallback={<Loader />}>
+              <Home />
+            </Suspense>
+          }
+        />
       </Routes>
     </Router>
   );

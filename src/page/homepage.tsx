@@ -7,7 +7,6 @@ import RoadmapSection from "../components/sections/roadmap";
 import Presale from "../components/sections/presale";
 import Disclamer from "../components/sections/disclamer";
 
-
 const Homepage = () => {
   return (
     <div>
@@ -15,8 +14,8 @@ const Homepage = () => {
       <ActivitySection />
       <Tokenomics />
       <RoadmapSection />
-      <Presale/>
-      <Disclamer/>
+      <Presale />
+      <Disclamer />
       <Footer />
     </div>
   );

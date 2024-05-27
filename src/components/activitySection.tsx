@@ -1,4 +1,3 @@
-
 import React from "react";
 import Button from "./micro/button";
 
@@ -6,9 +5,7 @@ const ActivitySection = () => {
   return (
     <section id="about" className="text-white md:py-5 px-4 md:px-8 mt-[4em]">
       <div className="flex justify-center">
-        <h2
-          className="text-3xl md:text-5xl font-bold uppercase title_element text-center stroke-text text-transparent"
-        >
+        <h2 className="text-3xl md:text-5xl font-bold uppercase title_element text-center stroke-text text-transparent">
           ABOUT $Stormy
         </h2>
       </div>

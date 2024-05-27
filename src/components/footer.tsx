@@ -15,7 +15,7 @@ const Footer = () => {
           />
         </a>
       </div>
-      <div className="flex flex-wrap justify-center mb-4 md:mb-0 w-full md:w-auto">
+      {/* <div className="flex flex-wrap justify-center mb-4 md:mb-0 w-full md:w-auto">
         {navLinks.map((link, index) => (
           <a
             key={index}
@@ -25,7 +25,10 @@ const Footer = () => {
             {link.name}
           </a>
         ))}
-      </div>
+      </div> */}
+      <p className="text-center my-2">
+        Copyright stormy.vip © 2024. All rights reserved
+      </p>
       <div className="flex items-center justify-center w-full md:w-auto">
         <a
           href="https://x.com/stormybase"
