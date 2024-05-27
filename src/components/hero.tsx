@@ -68,7 +68,7 @@ const Hero = () => {
                justify-center bg-default"
               onClick={() => copyToClipboard(contractAddress)}
             >
-              <MdCopyAll className="text-white" />
+              <h5 className="text-white">Copy</h5>
             </div>
           </div>
 

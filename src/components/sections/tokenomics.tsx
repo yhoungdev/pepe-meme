@@ -12,7 +12,7 @@ const Tokenomics = () => {
           <h1 className="text-xl md:text-2xl font-bold default-text ">
             TOKEN SUPPLY
           </h1>
-          <h3 className="text-lg md:text-3xl mt-3 text-gray-600 font-bold">
+          <h3 className="text-lg md:text-3xl mt-3 text-gray-200 font-bold">
             130,000,000,000 STMY
           </h3>
         </div>
