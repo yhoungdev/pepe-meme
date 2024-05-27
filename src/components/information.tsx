@@ -6,7 +6,7 @@ const Information = () => {
     <div className="bg-brown-800  px-3 text-white text-center py-12 min-h-screen flex flex-col justify-center w-full md:w-[800px] mx-auto">
       <h2
         className="text-3xl lg:text-5xl text-center font-bold mb-[1.5em] title_element default-text"
-        data-aos="fade-up"
+        Stormy
       >
         CRYPTO MEME RAMPAGE STARTS TODAY!
       </h2>

@@ -5,14 +5,14 @@ const Feature = () => {
     <div className="bg-brown-600 min-h-screen flex flex-col items-center justify-center text-center p-4">
       <h2
         className="text-5xl md:text-6xl text-white mb-10 title_element default-text "
-        data-aos="fade-up"
+        Stormy
       >
         PROJECT UTILITY
       </h2>
-      {/* <p className="text-lg text-gray-200 mb-12" data-aos="fade-up">
+      {/* <p className="text-lg text-gray-200 mb-12" Stormy>
         Here's the breakdown of the next meme-styled gaming mona lisa
       </p> */}
-      <div className="" data-aos="fade-up">
+      <div className="" Stormy>
         <div className="flex gap-4 flex-col md:flex-row">
           <div
             className=" text-white  rounded-lg shadow-md w-[80vw] h-[350px] md:w-[600px]"
