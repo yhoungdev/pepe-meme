@@ -1,12 +1,18 @@
 //@ts-nocheck
-import React, { useState } from "react";
-import { FaBars, FaDiscord, FaTelegram, FaTwitter } from "react-icons/fa";
+import React, { useState, useEffect } from "react";
+import { FaBars, FaTelegram, FaTwitter } from "react-icons/fa";
 
 const Header = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+  const [activeLink, setActiveLink] = useState("Home");
 
   const toggleSidebar = () => {
     setIsSidebarOpen(!isSidebarOpen);
+  };
+
+  const handleNavLinkClick = (link) => {
+    setActiveLink(link.name);
+    setIsSidebarOpen(false); // Close sidebar on link click
   };
 
   const sidebarStyle = {
@@ -29,6 +35,15 @@ const Header = () => {
     { name: "Roadmap", path: "#roadmap" },
   ];
 
+  useEffect(() => {
+    // Set active link based on current location hash
+    const hash = window.location.hash;
+    const activeLink = navLinks.find((link) => link.path === hash);
+    if (activeLink) {
+      setActiveLink(activeLink.name);
+    }
+  }, []);
+
   return (
     <>
       <header className="bg-cover bg-center p-4">
@@ -38,7 +53,7 @@ const Header = () => {
               <img
                 src="/updateImage.jpg"
                 alt="Logo"
-                width={"65"}
+                width="65"
                 className="rounded-full"
               />
             </a>
@@ -48,7 +63,10 @@ const Header = () => {
               <a
                 key={index}
                 href={link.path}
-                className="text-black font-bold px-4 py-2 hover:underline text-xl"
+                onClick={() => handleNavLinkClick(link)}
+                className={`text-black font-bold px-4 py-2 hover:underline text-xl ${
+                  activeLink === link.name ? "text-green-500" : ""
+                }`}
               >
                 {link.name}
               </a>
@@ -57,7 +75,7 @@ const Header = () => {
           <div className="hidden md:flex justify-center w-full md:w-auto items-center">
             <a
               href="https://x.com/stormybase"
-              target="_bank"
+              target="_blank"
               className="text-white px-2"
             >
               <FaTwitter size={24} />
@@ -82,7 +100,14 @@ const Header = () => {
       <div style={sidebarStyle} className="text-center">
         <div className="flex items-center h-[80%] flex-col justify-center gap-[4em] text-1xl">
           {navLinks.map((link, index) => (
-            <a key={index} href={link.path} className="block py-2 text-white">
+            <a
+              key={index}
+              href={link.path}
+              onClick={() => handleNavLinkClick(link)}
+              className={`block py-2 text-white ${
+                activeLink === link.name ? "text-green-500" : ""
+              }`}
+            >
               {link.name}
             </a>
           ))}
@@ -90,7 +115,7 @@ const Header = () => {
           <div className="flex items-start justify-center">
             <a
               href="https://x.com/stormybase"
-              target="_bank"
+              target="_blank"
               className="text-white px-2"
             >
               <FaTwitter size={24} />
