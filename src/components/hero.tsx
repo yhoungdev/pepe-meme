@@ -18,7 +18,7 @@ const Hero = () => {
     backgroundRepeat: "no-repeat",
   };
 
-  const contractAddress = "0xdsf6cv1dsf89fsdfv456ds5f4d";
+  const contractAddress = "0xd7d451FD20D295d4447c28AbbB706085C1a73f4c";
   const { copyToClipboard } = useClipboard();
 
   return (
@@ -58,7 +58,7 @@ const Hero = () => {
           <div className="flex items-center">
             <div className="mt-5 flex items-center  gap-2 w-fit  h-fit">
               <div className="px-4 py-2 bg-none border-2 border-brand-accent rounded-md flex items-center">
-                <span className="text-md md:text-xl text-black">
+                <span className="text-md md:text-xl text-black flex">
                   {contractAddress}
                 </span>
               </div>
