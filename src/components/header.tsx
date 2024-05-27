@@ -1,7 +1,6 @@
 //@ts-nocheck
 import React, { useState } from "react";
 import { FaBars, FaDiscord, FaTwitter } from "react-icons/fa";
-import { Link } from "react-router-dom";
 
 const Header = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -41,13 +40,13 @@ const Header = () => {
           </div>
           <div className="hidden md:flex items-center">
             {navLinks.map((link, index) => (
-              <Link
+              <a
                 key={index}
-                to={link.path}
+                href={link.path}
                 className="text-black font-bold px-4 py-2 hover:underline text-xl"
               >
                 {link.name}
-              </Link>
+              </a>
             ))}
           </div>
           <div className="hidden md:flex justify-center w-full md:w-auto items-center">
@@ -70,9 +69,9 @@ const Header = () => {
       <div style={sidebarStyle} className="text-center">
         <div className="flex items-center h-[80%] flex-col justify-center gap-[4em] text-1xl">
           {navLinks.map((link, index) => (
-            <Link key={index} to={link.path} className="block py-2 text-white">
+            <a key={index} href={link.path} className="block py-2 text-white">
               {link.name}
-            </Link>
+            </a>
           ))}
           <a href="https://docs.memeStormy.io/" className="block py-2 text-white">
             Documentation
