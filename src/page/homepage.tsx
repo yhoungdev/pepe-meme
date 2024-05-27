@@ -6,6 +6,7 @@ import Footer from "../components/footer";
 
 import Tokenomics from "../components/sections/tokenomics";
 import RoadmapSection from "../components/sections/roadmap";
+import Presale from "../components/sections/presale";
 
 const Homepage = () => {
   return (
@@ -14,6 +15,7 @@ const Homepage = () => {
       <ActivitySection />
       <Tokenomics />
       <RoadmapSection />
+      <Presale/>
       <Footer />
     </div>
   );
