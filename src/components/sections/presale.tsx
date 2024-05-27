@@ -72,6 +72,12 @@ const Presale = () => {
             <Button>Buy Presale</Button>
           </a>
         </center>
+
+       <div className="my-3 w-full  mx-auto md:w-[60%] text-center">
+       <p>
+        Participating in the presale gives you the opportunity to be an early adopter and join the Stormy community from the very beginning. Don’t miss out on this chance to own a part of a coin that’s set to make waves in the crypto world.
+        </p>
+       </div>
       </div>
     </div>
   );
