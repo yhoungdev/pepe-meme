@@ -27,8 +27,12 @@ const Footer = () => {
         ))}
       </div>
       <div className="flex items-center justify-center w-full md:w-auto">
-        <a href="" className="text-white px-2">
-          <FaDiscord size={24} />
+        <a
+          href="https://x.com/stormybase"
+          target="_bank"
+          className="text-white px-2"
+        >
+          <FaTwitter size={24} />
         </a>
         <a
           href="https://t.me/StormyCoinBase"

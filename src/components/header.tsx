@@ -1,6 +1,6 @@
 //@ts-nocheck
 import React, { useState } from "react";
-import { FaBars, FaDiscord, FaTelegram } from "react-icons/fa";
+import { FaBars, FaDiscord, FaTelegram, FaTwitter } from "react-icons/fa";
 
 const Header = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -55,8 +55,12 @@ const Header = () => {
             ))}
           </div>
           <div className="hidden md:flex justify-center w-full md:w-auto items-center">
-            <a href="" className="text-white px-2">
-              <FaDiscord size={24} />
+            <a
+              href="https://x.com/stormybase"
+              target="_bank"
+              className="text-white px-2"
+            >
+              <FaTwitter size={24} />
             </a>
             <a
               href="https://t.me/StormyCoinBase"
@@ -89,7 +93,7 @@ const Header = () => {
               target="_bank"
               className="text-white px-2"
             >
-              <FaDiscord size={24} />
+              <FaTwitter size={24} />
             </a>
             <a
               href="https://t.me/StormyCoinBase"
