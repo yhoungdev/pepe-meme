@@ -6,9 +6,11 @@ const RoadmapSection = () => {
     <div className="container">
       <div className="py-[5em] my-[5em]">
         <center>
-          <h1 className="title_element default-text text-2xl md:text-4xl font-bold">
-            ROADMAP
-          </h1>
+        <h2
+          className="text-3xl md:text-5xl font-bold uppercase title_element text-center stroke-text text-transparent"
+        >
+          ROADMAP
+        </h2>
         </center>
 
         <div className="my-3">

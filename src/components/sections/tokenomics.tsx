@@ -5,9 +5,11 @@ const Tokenomics = () => {
   return (
     <div id="#tokenomics" className="py-[5em] my-[5em]">
       <div className=" mx-auto text-center">
-        <h1 className="title_element default-text text-2xl md:text-4xl font-bold">
+      <h2
+          className="text-3xl md:text-5xl font-bold uppercase title_element text-center stroke-text text-transparent"
+        >
           TOKENOMICS
-        </h1>
+        </h2>
         <div className="mt-[3em] bg-gray-900  w-full md:w-[800px] mx-auto px-5 py-[5em] rounded-xl">
           <h1 className="text-xl md:text-2xl font-bold default-text ">
             TOKEN SUPPLY
