@@ -8,7 +8,6 @@ const Hero = () => {
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
-    border: "5px solid #8cae4b",
     borderRadius: "15px",
   };
 
