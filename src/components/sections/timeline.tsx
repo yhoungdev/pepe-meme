@@ -2,7 +2,7 @@ import React from "react";
 
 const Timeline = () => {
   return (
-    <div className="my-10">
+    <div className="my-10 text-red-400">
       <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
         <li>
           <div className="timeline-middle">
